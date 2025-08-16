@@ -6,7 +6,7 @@
 #include <cstdint>
 
 enum class asset_type {texture, sound, animation, script};
-enum class menu_section {background, music, sound, controls, texture}; 
+enum class menu_section {background, music, sound, controls, texture}; // similar to python enumerate, best practice to use enum class instead of enum
 
 int main(){
 
