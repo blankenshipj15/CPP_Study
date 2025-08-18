@@ -12,10 +12,16 @@ int main(){
     std::cout << "Initial Zombies Incoming: " << incoming_zombies << std::endl;
 
     // Addition assignment
+    ammo += 10;
+    std::cout << "ammo after finding more: " << ammo << std::endl;
 
     // Subtraction assignment
+    ammo -= 5;
+    std::cout << "ammo after using some: " << ammo << std::endl;
 
     // Multiplication assignment
+    incoming_zombies *= 2;
+    std::cout << "zombies duplicated after timeout: " << incoming_zombies << std::endl;
 
     // Division assignment
 
