@@ -24,9 +24,11 @@ int main(){
     std::cout << "zombies duplicated after timeout: " << incoming_zombies << std::endl;
 
     // Division assignment
-
+    ammo /= 2;
+    std::cout << "ammo after sharing: " << ammo << std::endl;
     // Remainder assignment
-
+    ammo %= 6;
+    std::cout << "Ammo left in magazine: " << ammo << std::endl;
     std::cout << std::endl << std::endl;
     return 0;
 }
